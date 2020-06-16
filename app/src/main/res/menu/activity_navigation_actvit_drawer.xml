@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g1"
+            android:orderInCategory="101"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+
+            <!-- <item
+                  android:id="@+id/nav_video"
+                  android:icon="@drawable/ic_video"
+                  android:title="Videos" />-->
+
+            <item
+                android:id="@+id/nav_home2"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favorites" />
+            <item
+                android:id="@+id/nav_home3"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_home4"
+                android:icon="@drawable/ic_instagram"
+                android:title="Our Instagram" />
+            <item
+                android:id="@+id/nav_home5"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="All Category"/>
+            <item
+                android:id="@+id/nav_home6"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Love Quotes"/>
+            <item
+                android:id="@+id/nav_home7"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Mother Quotes"/>
+            <item
+                android:id="@+id/nav_home8"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Attitude Quotes"/>
+            <item
+                android:id="@+id/nav_home9"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Motivational Quotes"/>
+            <item
+                android:id="@+id/nav_home10"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Positive Quotes"/>
+            <item
+                android:id="@+id/nav_home11"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:title="Inspirational Quotes"/>
+
+
+
+        </group>
+
+
+
+    </group>
+
+</menu>

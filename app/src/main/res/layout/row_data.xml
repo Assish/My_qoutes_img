@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:background="#040404">
+
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/ak6" />
+    </RelativeLayout>
+
+</RelativeLayout>
